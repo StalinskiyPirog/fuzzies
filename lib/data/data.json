@@ -1,0 +1,86 @@
+{ "data":{"chats": [
+    {
+        "roomId":"123456",
+        "roomName": "Аня",
+        "messages": [
+            {
+                "date": "12.05.2022",
+                "time": "16:13",
+                "sender": "2",
+                "receiver": "123456",
+                "text": "Тестовое сообщение"
+            },
+            {
+                "date": "12.05.2022",
+                "time": "16:14",
+                "sender": "1",
+                "receiver": "123456",
+                "text": "Второе сообщение, отправленное тобой"
+            },
+            {
+                "date": "12.05.2022",
+                "time": "16:16",
+                "sender": "2",
+                "receiver": "123456",
+                "text": "Третье сообщение, отправленное не тобой"
+            }
+        ]
+    },
+    {
+        "roomId":"654321",
+        "roomName": "Яна",
+        "messages": [
+            {
+                "date": "12.05.2022",
+                "time": "16:13",
+                "sender": "3",
+                "receiver": "654321",
+                "text": "Тестовое сообщение"
+            },
+            {
+                "date": "12.05.2022",
+                "time": "16:14",
+                "sender": "1",
+                "receiver": "654321",
+                "text": "Второе сообщение, отправленное тобой"
+            },
+            {
+                "date": "12.05.2022",
+                "time": "16:16",
+                "sender": "3",
+                "receiver": "654321",
+                "text": "Третье сообщение, отправленное не тобой"
+            }
+        ]
+    }
+]},
+"users":[
+    {
+        "userId":"1",
+        "name": "Test",
+        "surname": "Test",
+        "login": "23",
+        "password": "23",
+        "pets":[],
+        "description": "Test"
+    },
+    {
+        "userId":"2",
+        "name": "Аня",
+        "surname": "Аня",
+        "login": "123",
+        "password": "123",
+        "pets":[],
+        "description": "Test"
+    },
+    {
+        "userId":"3",
+        "name": "Яна",
+        "surname": "Яна",
+        "login": "321",
+        "password": "321",
+        "pets":[],
+        "description": "Test"
+    }
+]
+}
